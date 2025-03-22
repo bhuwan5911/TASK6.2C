@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        EMAIL_RECIPIENT = 'bhuwank301@gmail.com'
         USER_EMAIL = 'bhuwank301@gmail.com'
     }
 
