@@ -79,5 +79,5 @@ pipeline {
                        to: "${EMAIL_RECIPIENT}",
                        attachLog: true
           }
-     }
+   }
 }
