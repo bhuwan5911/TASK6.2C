@@ -78,6 +78,6 @@ pipeline {
                        body: 'The build has failed. please investigate',
                        to: "${EMAIL_RECIPIENT}",
                        attachLog: true
-         }
+          }
      }
 }
