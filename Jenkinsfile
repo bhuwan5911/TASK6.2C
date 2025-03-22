@@ -104,14 +104,14 @@ pipeline {
             echo 'Pipeline executed successfully!'
             emailext to: "${USER_EMAIL}",
             subject: "Pipeline Execution Successful",
-            body: "The entire pipeline has completed successfully."
+            body: "The entire pipeline has completed successfully.",
             attachLog: true
         }
         failure {
             echo 'Pipeline failed! Check the logs for more details.'
             emailext to: "${USER_EMAIL}",
             subject: "Pipeline Execution Failed",
-            body: "The pipeline has failed. Please check the Jenkins logs for more details."
+            body: "The pipeline has failed. Please check the Jenkins logs for more details.",
             attachLog: true
         }
     }
